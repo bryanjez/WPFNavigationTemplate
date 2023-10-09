@@ -32,10 +32,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Home\Report\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="Resources\Images\me.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>

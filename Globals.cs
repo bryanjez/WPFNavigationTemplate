@@ -2,6 +2,6 @@
 {
     public static class Globals
     {
-        public static string Name { get; } = "Electronice Secretary Office Management System";
+        public static string Name { get; } = "WPF Navigation Template";
     }
 }
