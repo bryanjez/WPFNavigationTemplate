@@ -10,6 +10,9 @@
     d:DesignWidth="800"
     mc:Ignorable="d">
     <Grid>
-        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Content="Settings..."/>
+        <Label
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Content="Settings..." />
     </Grid>
 </UserControl>

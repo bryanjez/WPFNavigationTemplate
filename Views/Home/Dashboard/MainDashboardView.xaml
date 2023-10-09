@@ -65,7 +65,7 @@
                 <Label
                     Grid.Column="1"
                     VerticalAlignment="Center"
-                    Content="Create Session"
+                    Content="Create"
                     Foreground="{DynamicResource ColorOnPrimary}" />
             </StackPanel>
         </Button>
