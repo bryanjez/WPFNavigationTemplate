@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ViewModels\Session\**" />
+    <Compile Remove="Views\Session\**" />
+    <EmbeddedResource Remove="ViewModels\Session\**" />
+    <EmbeddedResource Remove="Views\Session\**" />
+    <None Remove="ViewModels\Session\**" />
+    <None Remove="Views\Session\**" />
+    <Page Remove="ViewModels\Session\**" />
+    <Page Remove="Views\Session\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\me.jpg" />
+    <None Remove="Resources\Images\vs_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+    <PackageReference Include="LoadingSpinner.WPF" Version="1.0.0" />
+    <PackageReference Include="MahApps.Metro.IconPacks.BoxIcons" Version="4.11.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1901.177" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Home\Report\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\me.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\vs_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
