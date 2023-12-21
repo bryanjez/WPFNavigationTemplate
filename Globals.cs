@@ -2,6 +2,6 @@
 {
     public static class Globals
     {
-        public static string Name { get; } = "WPF Navigation Template";
+        public static string Title { get; } = "WPF Navigation Template";
     }
 }

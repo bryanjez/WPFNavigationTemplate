@@ -9,7 +9,7 @@ namespace WPFNavigationTemplate.ViewModels
 
         public MainViewModel(INavigationService navigationService)
         {
-            Title = Globals.Name;
+            Title = Globals.Title;
 
             Navigation = navigationService;
 
